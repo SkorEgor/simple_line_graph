@@ -5,9 +5,9 @@ from matplotlib.backends.backend_qt5agg import (
     FigureCanvasQTAgg as FigureCanvas,
     NavigationToolbar2QT as NavigationToolbar)
 
-matplotlib.use('TkAgg')
-
 from gui import Ui_Dialog
+
+matplotlib.use('TkAgg')
 
 
 class GuiProgram(Ui_Dialog):
